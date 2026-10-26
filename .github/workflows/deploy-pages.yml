@@ -27,7 +27,8 @@ jobs:
         run: |
           mkdir -p public
           cp support.html privacy.html secret-wishes-support.html secret-wishes-privacy.html public/
-          printf '%s\n' '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ATLAS AI Technologies</title></head><body><main><h1>ATLAS Clear</h1><p><a href="support.html">ATLAS Clear Support</a> | <a href="privacy.html">ATLAS Clear Privacy Policy</a></p><section><h2>Secret Wishes</h2><p><a href="secret-wishes-support.html">Secret Wishes Support</a> | <a href="secret-wishes-privacy.html">Secret Wishes Privacy Policy</a></p></section></main></body></html>' > public/index.html
+          cp -R portfolio public/portfolio
+          printf '%s\n' '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ATLAS AI Technologies</title></head><body><main><p><a href="portfolio/">ATLAS AI Technologies — Project portfolio</a></p><h1>ATLAS Clear</h1><p><a href="support.html">ATLAS Clear Support</a> | <a href="privacy.html">ATLAS Clear Privacy Policy</a></p><section><h2>Secret Wishes</h2><p><a href="secret-wishes-support.html">Secret Wishes Support</a> | <a href="secret-wishes-privacy.html">Secret Wishes Privacy Policy</a></p></section></main></body></html>' > public/index.html
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v4

@@ -1,0 +1,346 @@
+{
+  "updated": "2026-10-26",
+  "projects": [
+    {
+      "id": "osint",
+      "name": "ATLAS OSINT Professional",
+      "version": "0.5",
+      "category": "intelligence",
+      "status": "development",
+      "symbol": "◎",
+      "color": "blue",
+      "description": {
+        "en": "Research organized around usernames, email, phone numbers and images.",
+        "hu": "Információkutatás felhasználónév, e-mail, telefonszám és kép alapján.",
+        "de": "Recherche nach Nutzernamen, E-Mail, Telefonnummern und Bildern.",
+        "fr": "Recherche par nom d’utilisateur, email, téléphone et image.",
+        "es": "Investigación por usuario, correo, teléfono e imagen.",
+        "it": "Ricerca per nome utente, email, telefono e immagine.",
+        "pt": "Pesquisa por utilizador, email, telefone e imagem."
+      },
+      "detail": {
+        "hu": "Az ATLAS információkutatási projektje. A 0.5 verzió fejlesztés alatt áll. Ez a bemutató nem jelent nyilvános hozzáférést vagy kész funkciólistát.",
+        "en": "ATLAS’s information research project. Version 0.5 is in development. This overview does not imply public availability or a finalized feature set.",
+        "de": "ATLAS-Projekt zur Informationsrecherche. Version 0.5 wird entwickelt. Diese Übersicht bedeutet keine öffentliche Verfügbarkeit und keine endgültige Funktionsliste.",
+        "fr": "Projet ATLAS de recherche d’informations. La version 0.5 est en développement. Cette présentation ne garantit ni accès public ni liste définitive de fonctions.",
+        "es": "Proyecto ATLAS de investigación de información. La versión 0.5 está en desarrollo. Esta presentación no implica acceso público ni funciones definitivas.",
+        "it": "Progetto ATLAS di ricerca di informazioni. La versione 0.5 è in sviluppo. Questa presentazione non implica accesso pubblico né funzioni definitive.",
+        "pt": "Projeto ATLAS de pesquisa de informação. A versão 0.5 está em desenvolvimento. Esta apresentação não implica acesso público nem funções definitivas."
+      },
+      "audience": {
+        "en": "People organizing open-source research with traceable sources.",
+        "hu": "Nyílt forrású kutatást, követhető forrásokkal végző felhasználóknak.",
+        "de": "Für Menschen, die offene Quellen nachvollziehbar recherchieren.",
+        "fr": "Pour les personnes qui organisent des recherches avec des sources traçables.",
+        "es": "Para quienes investigan fuentes abiertas de forma trazable.",
+        "it": "Per chi organizza ricerche su fonti aperte tracciabili.",
+        "pt": "Para quem organiza pesquisas em fontes abertas rastreáveis."
+      },
+      "next": {
+        "en": "Confirm the current release scope before adding a public download. The screenshot is an earlier development preview.",
+        "hu": "Nyilvános letöltés előtt az aktuális kiadás tartalmának megerősítése. A kép korábbi fejlesztési előnézet.",
+        "de": "Vor einem öffentlichen Download den aktuellen Umfang bestätigen. Das Bild ist eine frühere Entwicklungsvorschau.",
+        "fr": "Confirmer le périmètre actuel avant tout téléchargement public. La capture est un aperçu de développement antérieur.",
+        "es": "Confirmar el alcance actual antes de añadir descarga pública. La captura es una vista de desarrollo anterior.",
+        "it": "Confermare l’ambito attuale prima del download pubblico. L’immagine è un’anteprima di sviluppo precedente.",
+        "pt": "Confirmar o âmbito atual antes de adicionar transferência pública. A captura é uma pré-visualização de desenvolvimento anterior."
+      },
+      "image": {
+        "src": "/assets/osint-development-preview.png",
+        "kind": "screenshot",
+        "width": 1120,
+        "height": 820,
+        "alt": {
+          "en": "Earlier development preview · empty research interface",
+          "hu": "Korábbi fejlesztési előnézet · üres keresőfelület",
+          "de": "Frühere Entwicklungsvorschau · leere Suchoberfläche",
+          "fr": "Ancien aperçu de développement · recherche vide",
+          "es": "Vista de desarrollo anterior · búsqueda vacía",
+          "it": "Anteprima di sviluppo precedente · ricerca vuota",
+          "pt": "Pré-visualização de desenvolvimento anterior · pesquisa vazia"
+        },
+        "caption": {
+          "en": "Earlier development preview · empty research interface",
+          "hu": "Korábbi fejlesztési előnézet · üres keresőfelület",
+          "de": "Frühere Entwicklungsvorschau · leere Suchoberfläche",
+          "fr": "Ancien aperçu de développement · recherche vide",
+          "es": "Vista de desarrollo anterior · búsqueda vacía",
+          "it": "Anteprima di sviluppo precedente · ricerca vuota",
+          "pt": "Pré-visualização de desenvolvimento anterior · pesquisa vazia"
+        }
+      }
+    },
+    {
+      "id": "clear",
+      "name": "ATLAS Clear",
+      "version": "2.2.0",
+      "category": "tools",
+      "status": "store",
+      "symbol": "◇",
+      "color": "cyan",
+      "description": {
+        "en": "A Windows utility for system status, local backups and selected maintenance tasks.",
+        "hu": "Windows-segédprogram rendszerállapothoz, helyi mentéshez és kiválasztott karbantartási feladatokhoz.",
+        "de": "Windows-Werkzeug für Systemstatus, lokale Sicherungen und ausgewählte Wartungsaufgaben.",
+        "fr": "Utilitaire Windows pour l’état du système, les sauvegardes locales et certaines tâches de maintenance.",
+        "es": "Utilidad de Windows para estado del sistema, copias locales y tareas de mantenimiento seleccionadas.",
+        "it": "Utilità Windows per stato del sistema, backup locali e attività di manutenzione selezionate.",
+        "pt": "Utilitário Windows para estado do sistema, cópias locais e tarefas de manutenção selecionadas."
+      },
+      "detail": {
+        "en": "A Windows desktop utility for viewing local system status and managing selected maintenance, backup and restore tasks. The guide screenshot shows the local 2.2.0 interface. The linked Store determines the currently offered package and regional availability.",
+        "hu": "Windows asztali segédprogram helyi rendszerállapot megtekintésére, kiválasztott karbantartási, mentési és visszaállítási feladatokra. Az útmutató képe a helyi 2.2.0 felületet mutatja; a ténylegesen kínált csomagot és régiós elérhetőséget a Store határozza meg.",
+        "de": "Windows-Desktopwerkzeug für lokalen Systemstatus sowie ausgewählte Wartungs-, Sicherungs- und Wiederherstellungsaufgaben. Das Bild zeigt die lokale Oberfläche 2.2.0; Paket und regionale Verfügbarkeit bestimmt der Store.",
+        "fr": "Utilitaire Windows pour l’état local du système et certaines tâches de maintenance, sauvegarde et restauration. La capture montre l’interface locale 2.2.0 ; le Store détermine le paquet proposé et sa disponibilité.",
+        "es": "Utilidad Windows para estado local del sistema y tareas seleccionadas de mantenimiento, copia y restauración. La captura muestra la interfaz local 2.2.0; la tienda determina el paquete y disponibilidad.",
+        "it": "Utilità Windows per stato locale del sistema e attività selezionate di manutenzione, backup e ripristino. La schermata mostra l’interfaccia locale 2.2.0; pacchetto e disponibilità dipendono dallo Store.",
+        "pt": "Utilitário Windows para estado local do sistema e tarefas selecionadas de manutenção, cópia e restauro. A captura mostra a interface local 2.2.0; o pacote e disponibilidade dependem da loja."
+      },
+      "download": {
+        "url": "https://apps.microsoft.com/detail/9P8T48VR4LK3",
+        "provider": "Microsoft Store",
+        "verified": true,
+        "verifiedAt": "2026-10-26",
+        "productId": "9P8T48VR4LK3"
+      },
+      "audience": {
+        "en": "Windows users who want to understand their PC and manage local copies.",
+        "hu": "Windows-felhasználóknak, akik átlátnák a gép állapotát és kezelnék a helyi mentéseket.",
+        "de": "Für Windows-Nutzer, die ihren PC verstehen und lokale Sicherungen verwalten möchten.",
+        "fr": "Pour les utilisateurs Windows qui veulent comprendre leur PC et gérer des copies locales.",
+        "es": "Para usuarios de Windows que quieren conocer su PC y gestionar copias locales.",
+        "it": "Per utenti Windows che vogliono comprendere il PC e gestire copie locali.",
+        "pt": "Para utilizadores Windows que querem compreender o PC e gerir cópias locais."
+      },
+      "next": {
+        "en": "Open the official Store listing for installation; check its current version and regional availability there.",
+        "hu": "Telepítéshez a hivatalos Store-adatlap megnyitása; az aktuális verzió és régiós elérhetőség ott ellenőrizhető.",
+        "de": "Zur Installation den offiziellen Store öffnen; Version und regionale Verfügbarkeit dort prüfen.",
+        "fr": "Ouvrir la fiche officielle du Store pour l’installation ; y vérifier version et disponibilité régionale.",
+        "es": "Abrir la ficha oficial para instalar; comprobar allí versión y disponibilidad regional.",
+        "it": "Aprire la scheda ufficiale per installare; verificare lì versione e disponibilità regionale.",
+        "pt": "Abrir a ficha oficial para instalar; verificar aí a versão e disponibilidade regional."
+      },
+      "image": {
+        "src": "/assets/clear-guide-2.2.png",
+        "kind": "screenshot",
+        "width": 1366,
+        "height": 800,
+        "alt": {
+          "en": "ATLAS Clear 2.2.0 · guide screen",
+          "hu": "ATLAS Clear 2.2.0 · útmutató képernyő",
+          "de": "ATLAS Clear 2.2.0 · Anleitung",
+          "fr": "ATLAS Clear 2.2.0 · écran du guide",
+          "es": "ATLAS Clear 2.2.0 · pantalla de ayuda",
+          "it": "ATLAS Clear 2.2.0 · schermata guida",
+          "pt": "ATLAS Clear 2.2.0 · ecrã do guia"
+        },
+        "caption": {
+          "en": "ATLAS Clear 2.2.0 · guide screen",
+          "hu": "ATLAS Clear 2.2.0 · útmutató képernyő",
+          "de": "ATLAS Clear 2.2.0 · Anleitung",
+          "fr": "ATLAS Clear 2.2.0 · écran du guide",
+          "es": "ATLAS Clear 2.2.0 · pantalla de ayuda",
+          "it": "ATLAS Clear 2.2.0 · schermata guida",
+          "pt": "ATLAS Clear 2.2.0 · ecrã do guia"
+        }
+      }
+    },
+    {
+      "id": "nyulo",
+      "name": "Nyulo Independent AI",
+      "version": "",
+      "category": "ai",
+      "status": "unconfirmed",
+      "symbol": "✳",
+      "color": "violet",
+      "description": {
+        "en": "A personal AI-assistant project with a distinct character and visual identity.",
+        "hu": "Személyes AI-asszisztens projekt saját karakterrel és vizuális világgal.",
+        "de": "Persönliches KI-Assistentenprojekt mit eigenem Charakter und visueller Identität.",
+        "fr": "Projet d’assistant IA personnel avec un caractère et une identité visuelle propres.",
+        "es": "Proyecto de asistente de IA personal con carácter e identidad visual propios.",
+        "it": "Progetto di assistente IA personale con carattere e identità visiva propri.",
+        "pt": "Projeto de assistente de IA pessoal com caráter e identidade visual próprios."
+      },
+      "detail": {
+        "hu": "A Nyulo Independent AI bemutatkozó projektoldala. Az aktuális verzió, a nyilvános elérhetőség és a közzétehető képességek megerősítésre várnak.",
+        "en": "An introduction to Nyulo Independent AI. The current version, public availability and publishable capabilities await confirmation.",
+        "de": "Vorstellung von Nyulo Independent AI. Die aktuelle Version, öffentliche Verfügbarkeit und veröffentlichbaren Fähigkeiten müssen noch bestätigt werden.",
+        "fr": "Présentation de Nyulo Independent AI. La version actuelle, la disponibilité publique et les capacités publiables restent à confirmer.",
+        "es": "Presentación de Nyulo Independent AI. La versión actual, disponibilidad pública y funciones publicables están por confirmar.",
+        "it": "Presentazione di Nyulo Independent AI. Versione attuale, disponibilità pubblica e capacità pubblicabili sono da confermare.",
+        "pt": "Apresentação de Nyulo Independent AI. A versão atual, disponibilidade pública e capacidades publicáveis aguardam confirmação."
+      },
+      "image": {
+        "src": "/assets/nyulo-avatar-rose.png",
+        "alt": {
+          "en": "Nyulo cyberpunk avatar with a glowing holographic rose",
+          "hu": "Nyulo cyberpunk avatár fénylő holografikus rózsával",
+          "de": "Nyulo-Cyberpunk-Avatar mit leuchtender holografischer Rose",
+          "fr": "Avatar cyberpunk Nyulo avec une rose holographique lumineuse",
+          "es": "Avatar ciberpunk de Nyulo con una rosa holográfica luminosa",
+          "it": "Avatar cyberpunk Nyulo con una rosa olografica luminosa",
+          "pt": "Avatar cyberpunk Nyulo com uma rosa holográfica luminosa"
+        },
+        "kind": "character",
+        "width": 1086,
+        "height": 1448,
+        "optimizedSrc": "/assets/nyulo-avatar-rose.webp"
+      },
+      "audience": {
+        "en": "People exploring a more personal relationship with an AI assistant.",
+        "hu": "Az AI-asszisztenssel személyesebb együttműködést keresőknek.",
+        "de": "Für Menschen, die persönlicher mit einem KI-Assistenten zusammenarbeiten möchten.",
+        "fr": "Pour ceux qui cherchent une relation plus personnelle avec un assistant IA.",
+        "es": "Para quienes buscan una relación más personal con un asistente de IA.",
+        "it": "Per chi cerca un rapporto più personale con un assistente IA.",
+        "pt": "Para quem procura uma relação mais pessoal com um assistente de IA."
+      },
+      "next": {
+        "en": "Confirm which capabilities and release information can be presented publicly.",
+        "hu": "A nyilvánosan bemutatható képességek és kiadási információk véglegesítése.",
+        "de": "Öffentlich zeigbare Fähigkeiten und Versionsangaben bestätigen.",
+        "fr": "Confirmer les capacités et informations de version publiables.",
+        "es": "Confirmar las funciones e información de versión publicables.",
+        "it": "Confermare capacità e informazioni di versione pubblicabili.",
+        "pt": "Confirmar capacidades e informações de versão publicáveis."
+      }
+    },
+    {
+      "id": "trading",
+      "name": "ATLAS Trading Copilot",
+      "version": "",
+      "category": "ai",
+      "status": "unconfirmed",
+      "symbol": "↗",
+      "color": "green",
+      "description": {
+        "en": "A project exploring research and decision support for trading workflows.",
+        "hu": "Kereskedési kutatási és döntéstámogató munkafolyamatokat vizsgáló projekt.",
+        "de": "Projekt zur Recherche und Entscheidungsunterstützung in Handelsabläufen.",
+        "fr": "Projet de recherche et d’aide à la décision pour le trading.",
+        "es": "Proyecto de investigación y apoyo a decisiones de trading.",
+        "it": "Progetto di ricerca e supporto alle decisioni di trading.",
+        "pt": "Projeto de pesquisa e apoio à decisão em processos de trading."
+      },
+      "detail": {
+        "hu": "A kereskedési döntéstámogatás témájára épülő ATLAS projekt. A részletes funkciók és a kiadási állapot megerősítésre várnak. A bemutató nem ígér hozamot vagy automatizált kereskedést.",
+        "en": "An ATLAS project focused on trading decision support. Detailed features and release status await confirmation. This overview makes no return or automated trading claims.",
+        "de": "ATLAS-Projekt zur Unterstützung von Handelsentscheidungen. Funktionen und Veröffentlichungsstand müssen bestätigt werden. Keine Zusage von Renditen oder automatischem Handel.",
+        "fr": "Projet ATLAS d’aide aux décisions de trading. Les fonctions et le statut de sortie restent à confirmer. Aucune promesse de rendement ni de trading automatisé.",
+        "es": "Proyecto ATLAS de apoyo a decisiones de trading. Funciones y estado de lanzamiento por confirmar. Sin promesas de rentabilidad ni negociación automática.",
+        "it": "Progetto ATLAS di supporto alle decisioni di trading. Funzioni e stato di uscita da confermare. Nessuna promessa di rendimento o trading automatico.",
+        "pt": "Projeto ATLAS de apoio a decisões de trading. Funções e estado de lançamento por confirmar. Sem promessas de retorno ou negociação automática."
+      },
+      "audience": {
+        "en": "People evaluating tools for reviewing market information; this is not an investment offer.",
+        "hu": "Piaci információkat áttekintő eszközök iránt érdeklődőknek; ez nem befektetési ajánlat.",
+        "de": "Für Interessierte an Werkzeugen zur Marktübersicht; kein Anlageangebot.",
+        "fr": "Pour ceux qui évaluent des outils de lecture des marchés ; ce n’est pas une offre d’investissement.",
+        "es": "Para quienes evalúan herramientas de información de mercado; no es una oferta de inversión.",
+        "it": "Per chi valuta strumenti di analisi delle informazioni di mercato; non è un’offerta d’investimento.",
+        "pt": "Para quem avalia ferramentas de informação de mercado; não é uma oferta de investimento."
+      },
+      "next": {
+        "en": "Define a public feature list and release status without performance or return promises.",
+        "hu": "Nyilvános funkciólista és kiadási állapot meghatározása teljesítmény- vagy hozamígéretek nélkül.",
+        "de": "Öffentliche Funktionen und Status ohne Leistungs- oder Renditeversprechen festlegen.",
+        "fr": "Définir fonctions publiques et statut sans promesse de performance ou de rendement.",
+        "es": "Definir funciones públicas y estado sin promesas de rendimiento.",
+        "it": "Definire funzioni pubbliche e stato senza promesse di prestazioni o rendimenti.",
+        "pt": "Definir funções públicas e estado sem promessas de desempenho ou retorno."
+      }
+    },
+    {
+      "id": "web",
+      "name": "ATLAS Web",
+      "version": "",
+      "category": "web",
+      "status": "unconfirmed",
+      "symbol": "⌘",
+      "color": "blue",
+      "description": {
+        "en": "A showcase for ATLAS web projects and digital interfaces.",
+        "hu": "Az ATLAS webes projektjeinek és digitális felületeinek bemutatóhelye.",
+        "de": "Schaufenster für ATLAS-Webprojekte und digitale Oberflächen.",
+        "fr": "Vitrine des projets web et interfaces numériques d’ATLAS.",
+        "es": "Presentación de proyectos web e interfaces digitales de ATLAS.",
+        "it": "Vetrina dei progetti web e delle interfacce digitali ATLAS.",
+        "pt": "Apresentação de projetos web e interfaces digitais ATLAS."
+      },
+      "detail": {
+        "hu": "Az ATLAS webes projektjének bemutatóhelye. A pontos termékkör, az ütemezés és a nyilvános hivatkozások megerősítésre várnak.",
+        "en": "A showcase for the ATLAS web project. Product scope, schedule and public links await confirmation.",
+        "de": "Vorstellung des ATLAS-Webprojekts. Produktumfang, Zeitplan und öffentliche Links müssen noch bestätigt werden.",
+        "fr": "Présentation du projet web ATLAS. Le périmètre, le calendrier et les liens publics restent à confirmer.",
+        "es": "Presentación del proyecto web ATLAS. Alcance, calendario y enlaces públicos por confirmar.",
+        "it": "Presentazione del progetto web ATLAS. Ambito, calendario e link pubblici da confermare.",
+        "pt": "Apresentação do projeto web ATLAS. Âmbito, calendário e ligações públicas por confirmar."
+      },
+      "audience": {
+        "en": "Visitors exploring the public-facing side of ATLAS’s digital work.",
+        "hu": "Az ATLAS digitális munkáinak nyilvános bemutatása iránt érdeklődőknek.",
+        "de": "Für Besucher, die die öffentliche digitale Arbeit von ATLAS erkunden.",
+        "fr": "Pour les visiteurs qui découvrent les travaux numériques publics d’ATLAS.",
+        "es": "Para visitantes que exploran el trabajo digital público de ATLAS.",
+        "it": "Per visitatori interessati al lavoro digitale pubblico di ATLAS.",
+        "pt": "Para visitantes que exploram o trabalho digital público da ATLAS."
+      },
+      "next": {
+        "en": "Clarify the individual web products and add their verified public links.",
+        "hu": "Az egyes webes termékek pontosítása és ellenőrzött nyilvános hivatkozásaik hozzáadása.",
+        "de": "Einzelne Webprodukte präzisieren und geprüfte öffentliche Links ergänzen.",
+        "fr": "Préciser les produits web et ajouter leurs liens publics vérifiés.",
+        "es": "Precisar los productos web y añadir enlaces públicos verificados.",
+        "it": "Precisare i prodotti web e aggiungere link pubblici verificati.",
+        "pt": "Precisar os produtos web e adicionar ligações públicas verificadas."
+      }
+    },
+    {
+      "id": "wishes",
+      "name": "Secret Wishes",
+      "version": "",
+      "category": "experience",
+      "status": "unconfirmed",
+      "symbol": "✧",
+      "color": "rose",
+      "description": {
+        "en": "A couples’ game project built around shared questions and challenges.",
+        "hu": "Közös kérdésekre és kihívásokra épülő párosjáték-projekt.",
+        "de": "Paarspielprojekt mit gemeinsamen Fragen und Herausforderungen.",
+        "fr": "Projet de jeu en couple autour de questions et de défis partagés.",
+        "es": "Proyecto de juego en pareja con preguntas y retos compartidos.",
+        "it": "Progetto di gioco di coppia con domande e sfide condivise.",
+        "pt": "Projeto de jogo para casais com perguntas e desafios partilhados."
+      },
+      "detail": {
+        "hu": "A Secret Wishes projekt bemutatóhelye. A részletes leírás és a nyilvános elérhetőség megerősítésre vár; a vizuális megjelenítés illusztráció.",
+        "en": "A showcase for Secret Wishes. Detailed information and public availability await confirmation; the visual is illustrative.",
+        "de": "Vorstellung von Secret Wishes. Beschreibung und öffentliche Verfügbarkeit müssen bestätigt werden. Die Grafik ist eine Illustration.",
+        "fr": "Présentation de Secret Wishes. Description détaillée et disponibilité publique à confirmer. Le visuel est une illustration.",
+        "es": "Presentación de Secret Wishes. Descripción detallada y disponibilidad pública por confirmar. El gráfico es una ilustración.",
+        "it": "Presentazione di Secret Wishes. Descrizione dettagliata e disponibilità pubblica da confermare. La grafica è un’illustrazione.",
+        "pt": "Apresentação de Secret Wishes. Descrição detalhada e disponibilidade pública por confirmar. O gráfico é uma ilustração."
+      },
+      "audience": {
+        "en": "Couples interested in shared, playful conversation and activities.",
+        "hu": "Közös, játékos beszélgetésre és feladatokra nyitott pároknak.",
+        "de": "Für Paare, die spielerische Gespräche und gemeinsame Aktivitäten mögen.",
+        "fr": "Pour les couples intéressés par des échanges et activités ludiques.",
+        "es": "Para parejas interesadas en conversaciones y actividades lúdicas.",
+        "it": "Per coppie interessate a conversazioni e attività giocose.",
+        "pt": "Para casais interessados em conversas e atividades lúdicas."
+      },
+      "next": {
+        "en": "Confirm the public release and access options before adding a download link.",
+        "hu": "A nyilvános kiadás és hozzáférési lehetőségek igazolása letöltési link hozzáadása előtt.",
+        "de": "Öffentliche Version und Zugang vor einem Download-Link bestätigen.",
+        "fr": "Confirmer la sortie publique et les accès avant d’ajouter un téléchargement.",
+        "es": "Confirmar la versión pública y acceso antes de añadir descarga.",
+        "it": "Confermare uscita pubblica e accesso prima di aggiungere un download.",
+        "pt": "Confirmar versão pública e acesso antes de adicionar uma transferência."
+      }
+    }
+  ]
+}
