@@ -240,39 +240,34 @@ h1 {
 .globe-halo {fill:none;stroke:#6cf7df;stroke-width:1.5;filter:drop-shadow(0 0 12px #2fd7bf)}
 .globe-grid {fill:none;stroke:#86cadc;stroke-width:.6;opacity:.2}
 .globe-land {fill:#3c7b7b;stroke:#90d5b5;stroke-width:.7}
-.globe-land-light {fill:#94efce;stroke:#c8ffe9;stroke-width:1;opacity:0;animation:atlas-land-arrival 14s linear infinite}
-.globe-track {fill:none;stroke:#82c9d2;stroke-width:.65;opacity:.23}
-.globe-signal {fill:none;stroke:#99f5ed;stroke-width:2;stroke-linecap:round;stroke-dasharray:12 88;filter:drop-shadow(0 0 3px #71e9d4);animation:atlas-signal-journey 14s linear infinite}
-.signal-1 {stroke:#d0ed80;stroke-dasharray:8 92}
-.signal-2 {stroke:#7cbfff;stroke-dasharray:16 84}
-.globe-arrivals {fill:none;stroke:#d6ffae;stroke-width:1.5;opacity:0;filter:drop-shadow(0 0 4px #94f5bb);animation:atlas-arrival-nodes 14s linear infinite}
-.globe-network {fill:none;stroke:#7ce8eb;stroke-width:.7;opacity:0;animation:atlas-network-reveal 14s linear infinite}
-.globe-network circle {fill:#e1ffb4;stroke:#b3f9d8;stroke-width:.6}
+
+.globe-track {fill:none;stroke:var(--signal);stroke-width:.7;opacity:.3}
+.globe-signal {fill:none;stroke:var(--signal);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:13 87;filter:drop-shadow(0 0 4px var(--signal));animation:atlas-signal-journey 18s linear infinite}
+.globe-network {fill:none;stroke:#ff303f;stroke-width:1;opacity:0;filter:drop-shadow(0 0 2px #ff2138);animation:atlas-network-reveal 18s linear infinite}
+.globe-network circle {fill:#ff7676;stroke:#ff303f;stroke-width:.8}
+.globe-word {opacity:0;animation:atlas-word-reveal 18s linear infinite}
+.globe-word rect {fill:#081422;fill-opacity:.88}
+.globe-word-stroke {fill:none;stroke:#b9fff2;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1000;filter:drop-shadow(0 0 4px #43ffe3);animation:atlas-word-draw 18s linear infinite}
 .globe-signature {fill:var(--muted);font:7px "Segoe UI",sans-serif;letter-spacing:2.5px}
 @keyframes atlas-signal-journey {
   0% {stroke-dashoffset:0;opacity:0}
-  4% {opacity:1}
-  46% {stroke-dashoffset:-100;opacity:1}
-  50%,100% {stroke-dashoffset:-100;opacity:0}
-}
-@keyframes atlas-land-arrival {
-  0%,47% {opacity:0}
-  57%,65% {opacity:.85}
-  76% {opacity:.18}
-  92%,100% {opacity:0}
-}
-@keyframes atlas-arrival-nodes {
-  0%,48% {opacity:0;stroke-width:1}
-  58% {opacity:1;stroke-width:2}
-  68% {opacity:.7;stroke-width:1}
-  76%,100% {opacity:0}
+  3% {opacity:1}
+  50% {stroke-dashoffset:-200;opacity:1}
+  54%,100% {stroke-dashoffset:-200;opacity:0}
 }
 @keyframes atlas-network-reveal {
-  0%,65% {opacity:0}
-  75% {opacity:.95}
-  80% {opacity:.6}
-  85% {opacity:1}
-  94%,100% {opacity:0}
+  0%,53% {opacity:0}
+  59%,66% {opacity:.95}
+  74%,100% {opacity:0}
+}
+@keyframes atlas-word-reveal {
+  0%,73% {opacity:0}
+  76%,94% {opacity:1}
+  100% {opacity:0}
+}
+@keyframes atlas-word-draw {
+  0%,75% {stroke-dashoffset:1000}
+  90%,100% {stroke-dashoffset:0}
 }
 
 .orbit-label {
@@ -991,7 +986,8 @@ nav {
 
 @media(prefers-reduced-motion:reduce) {
   .globe-network {opacity:.6}
-  .globe-land-light {opacity:.2}
+  .globe-word {opacity:1}
+  .globe-word-stroke {stroke-dashoffset:0}
   .globe-signal {opacity:0}
   html {
   scroll-behavior:auto}
