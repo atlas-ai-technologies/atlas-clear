@@ -144,7 +144,8 @@ section {
   pointer-events:none;
   background:var(--light);
   filter:blur(30px);
-  animation:atlas-light-drift 18s ease-in-out infinite alternate}
+  background-size:150% 150%;
+  animation:atlas-light-drift 9s ease-in-out infinite alternate}
 .eyebrow {
   margin:0 0 28px;
   font-size:10px;
@@ -259,6 +260,23 @@ h1 {
   inset:-15px;
   transform:rotateY(45deg) rotate(-30deg);
   border-color:var(--orbit3)}
+.orbit:after {
+  content:'';
+  position:absolute;
+  inset:-2px;
+  border-radius:50%;
+  background:conic-gradient(from 0deg,transparent 0deg 275deg,var(--orb) 335deg,white 355deg,transparent 360deg);
+  -webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));
+  mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));
+  filter:drop-shadow(0 0 6px var(--orb));
+  animation:atlas-orbit-light 6s linear infinite}
+.o2:after {
+  background:conic-gradient(transparent 0deg 275deg,var(--orbit2) 335deg,white 355deg,transparent 360deg);
+  animation-duration:9s;
+  animation-direction:reverse}
+.o3:after {
+  background:conic-gradient(transparent 0deg 275deg,var(--orbit3) 335deg,white 355deg,transparent 360deg);
+  animation-duration:12s}
 .core {
   display:grid;
   place-items:center;
@@ -805,7 +823,7 @@ footer .brand small {
   border:1px solid var(--line);
   color:var(--muted)}
 
-body[data-motion=paused] .hero:after,body[data-motion=paused] .hero h1 span {
+body[data-motion=paused] .hero:after,body[data-motion=paused] .hero h1 span,body[data-motion=paused] .orbit:after {
   animation-play-state:paused}
 
 @keyframes atlas-spectrum-flow {
@@ -816,11 +834,16 @@ to {
 }
 @keyframes atlas-light-drift {
   from {
-  transform:translate(-10px,-14px) scale(.96);
-  opacity:.65}
+  transform:translate(-5%,-4%) scale(.96);
+  background-position:0% 20%;
+  opacity:.55}
 to {
-  transform:translate(18px,14px) scale(1.06);
+  transform:translate(5%,4%) scale(1.08);
+  background-position:100% 80%;
   opacity:1}
+}
+@keyframes atlas-orbit-light {
+  to {transform:rotate(360deg)}
 }
 
 @media(min-width:1600px) {
@@ -1001,3 +1024,4 @@ nav {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
