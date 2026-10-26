@@ -236,55 +236,45 @@ h1 {
   display:grid;
   place-items:center;
   background:radial-gradient(ellipse,#2bbba14d,transparent 69%)}
-.orb {
-  position:relative;
-  width:290px;
-  height:290px;
-  border-radius:50%;
-  border:1px solid var(--orb);
-  transform:rotate(-16deg);
-  background:repeating-linear-gradient(0deg,transparent 0 17px,#6689ad24 18px 19px),repeating-linear-gradient(90deg,transparent 0 27px,#6689ad24 28px 29px),#112035;
-  box-shadow:inset 0 0 65px #368bbd66,0 0 95px #42bb8f40}
-.orbit {
-  position:absolute;
-  inset:-30px;
-  border:1px solid var(--orb);
-  border-radius:50%;
-  transform:rotateX(65deg) rotate(-35deg);
-  box-shadow:0 0 18px #14c9de55}
-.o2 {
-  inset:-50px;
-  transform:rotateY(65deg) rotate(32deg);
-  border-color:var(--orbit2)}
-.o3 {
-  inset:-15px;
-  transform:rotateY(45deg) rotate(-30deg);
-  border-color:var(--orbit3)}
-.orbit:after {
-  content:'';
-  position:absolute;
-  inset:-2px;
-  border-radius:50%;
-  background:conic-gradient(from 0deg,transparent 0deg 275deg,var(--orb) 335deg,white 355deg,transparent 360deg);
-  -webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));
-  mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));
-  filter:drop-shadow(0 0 6px var(--orb));
-  animation:atlas-orbit-light 6s linear infinite}
-.o2:after {
-  background:conic-gradient(transparent 0deg 275deg,var(--orbit2) 335deg,white 355deg,transparent 360deg);
-  animation-duration:9s;
-  animation-direction:reverse}
-.o3:after {
-  background:conic-gradient(transparent 0deg 275deg,var(--orbit3) 335deg,white 355deg,transparent 360deg);
-  animation-duration:12s}
-.core {
-  display:grid;
-  place-items:center;
-  height:100%;
-  font:800 145px Arial,sans-serif;
-  color:#d7f4eb;
-  text-shadow:0 0 45px #77d4cf80;
-  transform:rotate(16deg)}
+.atlas-globe {width:100%;max-width:560px;overflow:visible}
+.globe-halo {fill:none;stroke:#6cf7df;stroke-width:1.5;filter:drop-shadow(0 0 12px #2fd7bf)}
+.globe-grid {fill:none;stroke:#86cadc;stroke-width:.6;opacity:.2}
+.globe-land {fill:#3c7b7b;stroke:#90d5b5;stroke-width:.7}
+.globe-land-light {fill:#94efce;stroke:#c8ffe9;stroke-width:1;opacity:0;animation:atlas-land-arrival 14s linear infinite}
+.globe-track {fill:none;stroke:#82c9d2;stroke-width:.65;opacity:.23}
+.globe-signal {fill:none;stroke:#99f5ed;stroke-width:2;stroke-linecap:round;stroke-dasharray:12 88;filter:drop-shadow(0 0 3px #71e9d4);animation:atlas-signal-journey 14s linear infinite}
+.signal-1 {stroke:#d0ed80;stroke-dasharray:8 92}
+.signal-2 {stroke:#7cbfff;stroke-dasharray:16 84}
+.globe-arrivals {fill:none;stroke:#d6ffae;stroke-width:1.5;opacity:0;filter:drop-shadow(0 0 4px #94f5bb);animation:atlas-arrival-nodes 14s linear infinite}
+.globe-network {fill:none;stroke:#7ce8eb;stroke-width:.7;opacity:0;animation:atlas-network-reveal 14s linear infinite}
+.globe-network circle {fill:#e1ffb4;stroke:#b3f9d8;stroke-width:.6}
+.globe-signature {fill:var(--muted);font:7px "Segoe UI",sans-serif;letter-spacing:2.5px}
+@keyframes atlas-signal-journey {
+  0% {stroke-dashoffset:0;opacity:0}
+  4% {opacity:1}
+  46% {stroke-dashoffset:-100;opacity:1}
+  50%,100% {stroke-dashoffset:-100;opacity:0}
+}
+@keyframes atlas-land-arrival {
+  0%,47% {opacity:0}
+  57%,65% {opacity:.85}
+  76% {opacity:.18}
+  92%,100% {opacity:0}
+}
+@keyframes atlas-arrival-nodes {
+  0%,48% {opacity:0;stroke-width:1}
+  58% {opacity:1;stroke-width:2}
+  68% {opacity:.7;stroke-width:1}
+  76%,100% {opacity:0}
+}
+@keyframes atlas-network-reveal {
+  0%,65% {opacity:0}
+  75% {opacity:.95}
+  80% {opacity:.6}
+  85% {opacity:1}
+  94%,100% {opacity:0}
+}
+
 .orbit-label {
   position:absolute;
   padding:7px 12px;
@@ -823,7 +813,7 @@ footer .brand small {
   border:1px solid var(--line);
   color:var(--muted)}
 
-body[data-motion=paused] .hero:after,body[data-motion=paused] .hero h1 span,body[data-motion=paused] .orbit:after {
+body[data-motion=paused] .hero:after,body[data-motion=paused] .hero h1 span,body[data-motion=paused] .atlas-globe * {
   animation-play-state:paused}
 
 @keyframes atlas-spectrum-flow {
@@ -842,9 +832,7 @@ to {
   background-position:100% 80%;
   opacity:1}
 }
-@keyframes atlas-orbit-light {
-  to {transform:rotate(360deg)}
-}
+
 
 @media(min-width:1600px) {
   .hero {
@@ -1002,6 +990,9 @@ nav {
 }
 
 @media(prefers-reduced-motion:reduce) {
+  .globe-network {opacity:.6}
+  .globe-land-light {opacity:.2}
+  .globe-signal {opacity:0}
   html {
   scroll-behavior:auto}
 *,*:before,*:after {
@@ -1024,4 +1015,3 @@ nav {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-
