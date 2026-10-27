@@ -1011,3 +1011,7 @@ nav {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+/* Approved standalone animation, adapted to the existing hero container. */
+#atlas-animation {display:block;width:100%;height:420px;border-radius:14px;border:1px solid #4d77ae;box-shadow:0 0 26px #6223d544,0 0 9px #00edff44}
+@media(max-width:700px){#atlas-animation{height:350px}}
