@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-30",
   "projects": [
     {
       "id": "osint",
@@ -73,7 +73,7 @@
     {
       "id": "clear",
       "name": "ATLAS Clear",
-      "version": "2.2.0",
+      "version": "",
       "category": "tools",
       "status": "store",
       "symbol": "◇",
@@ -88,19 +88,19 @@
         "pt": "Utilitário Windows para estado do sistema, cópias locais e tarefas de manutenção selecionadas."
       },
       "detail": {
-        "en": "A Windows desktop utility for viewing local system status and managing selected maintenance, backup and restore tasks. The guide screenshot shows the local 2.2.0 interface. The linked Store determines the currently offered package and regional availability.",
-        "hu": "Windows asztali segédprogram helyi rendszerállapot megtekintésére, kiválasztott karbantartási, mentési és visszaállítási feladatokra. Az útmutató képe a helyi 2.2.0 felületet mutatja; a ténylegesen kínált csomagot és régiós elérhetőséget a Store határozza meg.",
-        "de": "Windows-Desktopwerkzeug für lokalen Systemstatus sowie ausgewählte Wartungs-, Sicherungs- und Wiederherstellungsaufgaben. Das Bild zeigt die lokale Oberfläche 2.2.0; Paket und regionale Verfügbarkeit bestimmt der Store.",
-        "fr": "Utilitaire Windows pour l’état local du système et certaines tâches de maintenance, sauvegarde et restauration. La capture montre l’interface locale 2.2.0 ; le Store détermine le paquet proposé et sa disponibilité.",
-        "es": "Utilidad Windows para estado local del sistema y tareas seleccionadas de mantenimiento, copia y restauración. La captura muestra la interfaz local 2.2.0; la tienda determina el paquete y disponibilidad.",
-        "it": "Utilità Windows per stato locale del sistema e attività selezionate di manutenzione, backup e ripristino. La schermata mostra l’interfaccia locale 2.2.0; pacchetto e disponibilità dipendono dallo Store.",
-        "pt": "Utilitário Windows para estado local do sistema e tarefas selecionadas de manutenção, cópia e restauro. A captura mostra a interface local 2.2.0; o pacote e disponibilidade dependem da loja."
+        "hu": "A Microsoft Store-ból elérhető Windows-segédprogram rendszerállapot, kiválasztott karbantartási műveletek, helyi mentések és visszaállítás kezelésére. A képernyőkép a nyilvános Store-adatlapról származik. Az áruház nem közöl ellenőrizhető csomagverziót; az aktuális csomagot a Store kínálja.",
+        "en": "Available from the Microsoft Store for Windows system status, selected maintenance tasks, local backups and restores. The screenshot comes from the public Store listing. The listing does not expose a verifiable package version; the Store supplies the current package.",
+        "de": "Im Microsoft Store verfügbares Windows-Werkzeug für Systemstatus, ausgewählte Wartung, lokale Sicherungen und Wiederherstellung. Das Bild stammt aus dem öffentlichen Store-Eintrag. Eine überprüfbare Paketversion wird dort nicht angegeben.",
+        "fr": "Utilitaire Windows disponible sur le Microsoft Store pour l’état du système, certaines opérations de maintenance, les sauvegardes locales et la restauration. La capture vient de la fiche publique, qui ne fournit pas de version vérifiable du paquet.",
+        "es": "Utilidad Windows disponible en Microsoft Store para estado del sistema, mantenimiento seleccionado, copias locales y restauración. La captura procede de la ficha pública, que no indica una versión verificable del paquete.",
+        "it": "Utilità Windows disponibile su Microsoft Store per stato del sistema, manutenzione selezionata, backup locali e ripristino. La schermata proviene dalla scheda pubblica, che non indica una versione verificabile del pacchetto.",
+        "pt": "Utilitário Windows disponível na Microsoft Store para estado do sistema, manutenção selecionada, cópias locais e restauro. A captura vem da página pública, que não indica uma versão verificável do pacote."
       },
       "download": {
         "url": "https://apps.microsoft.com/detail/9P8T48VR4LK3",
         "provider": "Microsoft Store",
         "verified": true,
-        "verifiedAt": "2026-10-26",
+        "verifiedAt": "2026-10-30",
         "productId": "9P8T48VR4LK3"
       },
       "audience": {
@@ -113,37 +113,43 @@
         "pt": "Para utilizadores Windows que querem compreender o PC e gerir cópias locais."
       },
       "next": {
-        "en": "Open the official Store listing for installation; check its current version and regional availability there.",
-        "hu": "Telepítéshez a hivatalos Store-adatlap megnyitása; az aktuális verzió és régiós elérhetőség ott ellenőrizhető.",
-        "de": "Zur Installation den offiziellen Store öffnen; Version und regionale Verfügbarkeit dort prüfen.",
-        "fr": "Ouvrir la fiche officielle du Store pour l’installation ; y vérifier version et disponibilité régionale.",
-        "es": "Abrir la ficha oficial para instalar; comprobar allí versión y disponibilidad regional.",
-        "it": "Aprire la scheda ufficiale per installare; verificare lì versione e disponibilità regionale.",
-        "pt": "Abrir a ficha oficial para instalar; verificar aí a versão e disponibilidade regional."
+        "hu": "Az aktuális csomag és a régiós elérhetőség a hivatalos Store-adatlapon ellenőrizhető.",
+        "en": "Check the official Store listing for the current package and regional availability.",
+        "de": "Aktuelles Paket und regionale Verfügbarkeit im offiziellen Store prüfen.",
+        "fr": "Consulter la fiche officielle pour le paquet actuel et sa disponibilité.",
+        "es": "Consultar el paquete actual y la disponibilidad en la ficha oficial.",
+        "it": "Consultare la scheda ufficiale per pacchetto attuale e disponibilità.",
+        "pt": "Consultar a página oficial para o pacote atual e a disponibilidade."
       },
       "image": {
-        "src": "/assets/clear-guide-2.2.png",
+        "src": "/assets/clear-store-current.png",
         "kind": "screenshot",
         "width": 1366,
         "height": 800,
         "alt": {
-          "en": "ATLAS Clear 2.2.0 · guide screen",
-          "hu": "ATLAS Clear 2.2.0 · útmutató képernyő",
-          "de": "ATLAS Clear 2.2.0 · Anleitung",
-          "fr": "ATLAS Clear 2.2.0 · écran du guide",
-          "es": "ATLAS Clear 2.2.0 · pantalla de ayuda",
-          "it": "ATLAS Clear 2.2.0 · schermata guida",
-          "pt": "ATLAS Clear 2.2.0 · ecrã do guia"
+          "hu": "ATLAS Clear · hivatalos Store-képernyőkép",
+          "en": "ATLAS Clear · official Store screenshot",
+          "de": "ATLAS Clear · offizieller Store-Screenshot",
+          "fr": "ATLAS Clear · capture officielle du Store",
+          "es": "ATLAS Clear · captura oficial de la tienda",
+          "it": "ATLAS Clear · schermata ufficiale dello Store",
+          "pt": "ATLAS Clear · captura oficial da loja"
         },
         "caption": {
-          "en": "ATLAS Clear 2.2.0 · guide screen",
-          "hu": "ATLAS Clear 2.2.0 · útmutató képernyő",
-          "de": "ATLAS Clear 2.2.0 · Anleitung",
-          "fr": "ATLAS Clear 2.2.0 · écran du guide",
-          "es": "ATLAS Clear 2.2.0 · pantalla de ayuda",
-          "it": "ATLAS Clear 2.2.0 · schermata guida",
-          "pt": "ATLAS Clear 2.2.0 · ecrã do guia"
+          "hu": "Hivatalos Store-képernyőkép · ellenőrizve: 2026-10-30",
+          "en": "Official Store screenshot · checked 2026-10-30",
+          "de": "Offizieller Store-Screenshot · geprüft 2026-10-30",
+          "fr": "Capture officielle du Store · vérifiée le 2026-10-30",
+          "es": "Captura oficial · comprobada el 2026-10-30",
+          "it": "Schermata ufficiale · verificata il 2026-10-30",
+          "pt": "Captura oficial · verificada em 2026-10-30"
         }
+      },
+      "release": {
+        "date": "2026-10-25",
+        "publisher": "ATLAS AI Technologies",
+        "source": "https://apps.microsoft.com/detail/9P8T48VR4LK3",
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -299,29 +305,29 @@
     },
     {
       "id": "wishes",
-      "name": "Secret Wishes",
+      "name": "Secret Wishes Game",
       "version": "",
       "category": "experience",
-      "status": "unconfirmed",
+      "status": "store",
       "symbol": "✧",
       "color": "rose",
       "description": {
-        "en": "A couples’ game project built around shared questions and challenges.",
-        "hu": "Közös kérdésekre és kihívásokra épülő párosjáték-projekt.",
-        "de": "Paarspielprojekt mit gemeinsamen Fragen und Herausforderungen.",
-        "fr": "Projet de jeu en couple autour de questions et de défis partagés.",
-        "es": "Proyecto de juego en pareja con preguntas y retos compartidos.",
-        "it": "Progetto di gioco di coppia con domande e sfide condivise.",
-        "pt": "Projeto de jogo para casais com perguntas e desafios partilhados."
+        "hu": "Megjelent páros kártyajáték: 15 ingyenes romantikus feladat, közös tempóban.",
+        "en": "A released couples card game with 15 free romantic prompts, at your own pace.",
+        "de": "Veröffentlichtes Kartenspiel für Paare mit 15 kostenlosen romantischen Aufgaben.",
+        "fr": "Jeu de cartes pour couples disponible, avec 15 défis romantiques gratuits.",
+        "es": "Juego de cartas para parejas disponible, con 15 retos románticos gratuitos.",
+        "it": "Gioco di carte per coppie disponibile, con 15 sfide romantiche gratuite.",
+        "pt": "Jogo de cartas para casais disponível, com 15 desafios românticos gratuitos."
       },
       "detail": {
-        "hu": "A Secret Wishes projekt bemutatóhelye. A részletes leírás és a nyilvános elérhetőség megerősítésre vár; a vizuális megjelenítés illusztráció.",
-        "en": "A showcase for Secret Wishes. Detailed information and public availability await confirmation; the visual is illustrative.",
-        "de": "Vorstellung von Secret Wishes. Beschreibung und öffentliche Verfügbarkeit müssen bestätigt werden. Die Grafik ist eine Illustration.",
-        "fr": "Présentation de Secret Wishes. Description détaillée et disponibilité publique à confirmer. Le visuel est une illustration.",
-        "es": "Presentación de Secret Wishes. Descripción detallada y disponibilidad pública por confirmar. El gráfico es una ilustración.",
-        "it": "Presentazione di Secret Wishes. Descrizione dettagliata e disponibilità pubblica da confermare. La grafica è un’illustrazione.",
-        "pt": "Apresentação de Secret Wishes. Descrição detalhada e disponibilidade pública por confirmar. O gráfico é uma ilustração."
+        "hu": "A Secret Wishes Game 2026. október 30-án megjelent a Microsoft Store-ban. Kétszemélyes játék egy közös képernyőn, 15 ingyenes Romantikus · Lágy lappal. Fiók nem szükséges; bármelyik játékos passzolhat vagy megállhat. Az opcionális csomagok külön vásárlással, az áruházban jelzett elérhetőség szerint érhetők el.",
+        "en": "Secret Wishes Game was released on the Microsoft Store on 30 October 2026. Play together on one screen with 15 free Romantic · Gentle cards. No account is required, and either player can pass or stop. Optional packs require a separate purchase and are available as indicated by the Store.",
+        "de": "Secret Wishes Game erschien am 30. Oktober 2026 im Microsoft Store. Zu zweit an einem Bildschirm spielen, mit 15 kostenlosen romantischen Karten. Kein Konto nötig; beide können passen oder aufhören. Verfügbarkeit und Bedingungen optionaler Pakete stehen im Store.",
+        "fr": "Secret Wishes Game est sorti sur le Microsoft Store le 30 octobre 2026. Deux personnes sur un écran, avec 15 cartes romantiques gratuites. Aucun compte requis ; chacun peut passer ou arrêter. Consulter le Store pour la disponibilité et les conditions des packs optionnels.",
+        "es": "Secret Wishes Game se publicó en Microsoft Store el 30 de octubre de 2026. Dos personas en una pantalla, con 15 cartas románticas gratuitas. Sin cuenta; cualquiera puede pasar o parar. Consultar la tienda para la disponibilidad y condiciones de los paquetes opcionales.",
+        "it": "Secret Wishes Game è uscito su Microsoft Store il 30 ottobre 2026. Due persone su uno schermo, con 15 carte romantiche gratuite. Nessun account richiesto; entrambi possono passare o fermarsi. Consultare lo Store per disponibilità e condizioni dei pacchetti opzionali.",
+        "pt": "Secret Wishes Game foi lançado na Microsoft Store em 30 de outubro de 2026. Duas pessoas num ecrã, com 15 cartas românticas gratuitas. Sem conta; qualquer jogador pode passar ou parar. Consultar a loja para disponibilidade e condições dos pacotes opcionais."
       },
       "audience": {
         "en": "Couples interested in shared, playful conversation and activities.",
@@ -333,13 +339,50 @@
         "pt": "Para casais interessados em conversas e atividades lúdicas."
       },
       "next": {
-        "en": "Confirm the public release and access options before adding a download link.",
-        "hu": "A nyilvános kiadás és hozzáférési lehetőségek igazolása letöltési link hozzáadása előtt.",
-        "de": "Öffentliche Version und Zugang vor einem Download-Link bestätigen.",
-        "fr": "Confirmer la sortie publique et les accès avant d’ajouter un téléchargement.",
-        "es": "Confirmar la versión pública y acceso antes de añadir descarga.",
-        "it": "Confermare uscita pubblica e accesso prima di aggiungere un download.",
-        "pt": "Confirmar versão pública e acesso antes de adicionar uma transferência."
+        "hu": "Az ingyenes alapjáték letölthető. A további csomagok aktuális elérhetőségét a Store-adatlapon ellenőrizd.",
+        "en": "The free base game is available to download. Check the Store listing for optional pack availability.",
+        "de": "Das kostenlose Grundspiel ist verfügbar. Optionale Pakete im Store prüfen.",
+        "fr": "Le jeu de base gratuit est disponible. Vérifier les packs optionnels dans le Store.",
+        "es": "El juego base gratuito está disponible. Consultar los paquetes opcionales en la tienda.",
+        "it": "Il gioco base gratuito è disponibile. Verificare i pacchetti opzionali nello Store.",
+        "pt": "O jogo base gratuito está disponível. Verificar os pacotes opcionais na loja."
+      },
+      "download": {
+        "url": "https://apps.microsoft.com/detail/9P4ZSZVLSZVX",
+        "provider": "Microsoft Store",
+        "verified": true,
+        "verifiedAt": "2026-10-30",
+        "productId": "9P4ZSZVLSZVX"
+      },
+      "release": {
+        "date": "2026-10-30",
+        "publisher": "Atlaszai",
+        "source": "https://apps.microsoft.com/detail/9P4ZSZVLSZVX",
+        "checkedAt": "2026-10-30"
+      },
+      "image": {
+        "src": "/assets/wishes-store-current.jpg",
+        "kind": "screenshot",
+        "width": 1789,
+        "height": 1072,
+        "alt": {
+          "hu": "Secret Wishes Game · hivatalos Store-képernyőkép",
+          "en": "Secret Wishes Game · official Store screenshot",
+          "de": "Secret Wishes Game · offizieller Store-Screenshot",
+          "fr": "Secret Wishes Game · capture officielle du Store",
+          "es": "Secret Wishes Game · captura oficial de la tienda",
+          "it": "Secret Wishes Game · schermata ufficiale dello Store",
+          "pt": "Secret Wishes Game · captura oficial da loja"
+        },
+        "caption": {
+          "hu": "Megjelent: 2026-10-30 · hivatalos Store-képernyőkép",
+          "en": "Released 2026-10-30 · official Store screenshot",
+          "de": "Veröffentlicht 2026-10-30 · offizieller Store-Screenshot",
+          "fr": "Sortie le 2026-10-30 · capture officielle du Store",
+          "es": "Publicado el 2026-10-30 · captura oficial",
+          "it": "Uscito il 2026-10-30 · schermata ufficiale",
+          "pt": "Lançado em 2026-10-30 · captura oficial"
+        }
       }
     }
   ]

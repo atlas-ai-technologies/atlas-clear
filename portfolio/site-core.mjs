@@ -56,7 +56,7 @@ export function detailMarkup(project, index, lang, t, updated, base = '/') {
     <h1 tabindex="-1">${escapeHtml(project.name)}</h1><p class="lead">${escapeHtml(project.description[lang])}</p>
     ${imageMarkup(project, index, lang, t, base, true)}
     <dl class="facts"><div><dt>${escapeHtml(t.status)}</dt><dd>${escapeHtml(t[project.status])}</dd></div>
-      <div><dt>${escapeHtml(verifiedDownload(project) ? t.localVersion : t.version)}</dt><dd>${escapeHtml(project.version || t.pending)}</dd></div>
+      <div><dt>${escapeHtml(verifiedDownload(project) && project.version ? t.localVersion : t.version)}</dt><dd>${escapeHtml(project.version || (verifiedDownload(project) ? t.storeVersionUnknown : t.pending))}</dd></div>
       <div><dt>${escapeHtml(t.updated)}</dt><dd><time datetime="${updated}">${updated}</time></dd></div></dl>
     <div class="project-notes"><section><h2>${escapeHtml(t.projectFocus)}</h2><p>${escapeHtml(project.detail[lang])}</p></section>
       <section><h2>${escapeHtml(t.intendedFor)}</h2><p>${escapeHtml(project.audience[lang])}</p></section>
