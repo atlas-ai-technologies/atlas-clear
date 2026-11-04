@@ -62,6 +62,7 @@ export function detailMarkup(project, index, lang, t, updated, base = '/') {
       <section><h2>${escapeHtml(t.intendedFor)}</h2><p>${escapeHtml(project.audience[lang])}</p></section>
       <section><h2>${escapeHtml(t.nextStep)}</h2><p>${escapeHtml(project.next[lang])}</p></section></div>
     ${downloadMarkup(project, lang, t, true)}
+    ${project.mediaUrl && /^https:\/\/www\.instagram\.com\/p\/[A-Za-z0-9_-]+\/$/.test(project.mediaUrl) ? `<p><a class="text-link" href="${escapeHtml(project.mediaUrl)}" rel="external">${({en:'Watch the overview on Instagram',hu:'Videóbemutató az Instagramon',de:'Video auf Instagram ansehen',fr:'Voir la vidéo sur Instagram',es:'Ver el vídeo en Instagram',it:'Guarda il video su Instagram',pt:'Ver o vídeo no Instagram'})[lang]} ↗</a></p>` : ''}
     <p class="disclosure">${escapeHtml(t.source)}</p><p class="disclosure">${escapeHtml(t.disclosure)}</p>
     <a class="primary" href="${homePath(lang, base)}#projects">${escapeHtml(t.backProjects)} ↗</a>`;
 }

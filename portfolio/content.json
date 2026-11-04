@@ -150,7 +150,8 @@
         "publisher": "ATLAS AI Technologies",
         "source": "https://apps.microsoft.com/detail/9P8T48VR4LK3",
         "checkedAt": "2026-11-04"
-      }
+      },
+      "mediaUrl": "https://www.instagram.com/p/DfVjIWPvG3b/"
     },
     {
       "id": "translator",
@@ -208,7 +209,32 @@
         "publisher": "ATLAS AI Technologies",
         "source": "https://apps.microsoft.com/detail/9NLKB0GJ4T0G",
         "checkedAt": "2026-11-04"
-      }
+      },
+      "image": {
+        "src": "/assets/translator-store.png",
+        "kind": "screenshot",
+        "width": 1536,
+        "height": 864,
+        "alt": {
+          "en": "Official Store screenshot",
+          "hu": "Hivatalos Store-képernyőkép",
+          "de": "Offizieller Store-Screenshot",
+          "fr": "Capture officielle du Store",
+          "es": "Captura oficial de la tienda",
+          "it": "Schermata ufficiale dello Store",
+          "pt": "Captura oficial da loja"
+        },
+        "caption": {
+          "en": "Official Store screenshot",
+          "hu": "Hivatalos Store-képernyőkép",
+          "de": "Offizieller Store-Screenshot",
+          "fr": "Capture officielle du Store",
+          "es": "Captura oficial de la tienda",
+          "it": "Schermata ufficiale dello Store",
+          "pt": "Captura oficial da loja"
+        }
+      },
+      "mediaUrl": "https://www.instagram.com/p/DfRd-h0R40w/"
     },
     {
       "id": "nyulo",
@@ -441,7 +467,8 @@
           "it": "Uscito il 2026-10-30 · schermata ufficiale",
           "pt": "Lançado em 2026-10-30 · captura oficial"
         }
-      }
+      },
+      "mediaUrl": "https://www.instagram.com/p/DfVjW2vuUGk/"
     }
   ]
 }
