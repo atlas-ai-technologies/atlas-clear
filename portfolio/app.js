@@ -1,4 +1,4 @@
-import {escapeHtml, themeFor, homePath, projectPath, cardMarkup, detailMarkup} from './site-core.mjs';
+import {escapeHtml, themeFor, homePath, projectPath, cardMarkup, detailMarkup} from './site-core.mjs?v=20261104';
 
 const $ = selector => document.querySelector(selector);
 const basePath = new URL('.', import.meta.url).pathname;
@@ -19,7 +19,7 @@ function readRoute() {
 }
 
 async function readJson(file) {
-  const response = await fetch(new URL(file, import.meta.url));
+  const response = await fetch(new URL(file + '?v=20261104', import.meta.url));
   if (!response.ok) throw new Error(`Unable to load ${file}`);
   return response.json();
 }
