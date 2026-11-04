@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-04",
   "projects": [
     {
       "id": "osint",
@@ -100,7 +100,7 @@
         "url": "https://apps.microsoft.com/detail/9P8T48VR4LK3",
         "provider": "Microsoft Store",
         "verified": true,
-        "verifiedAt": "2026-10-30",
+        "verifiedAt": "2026-11-04",
         "productId": "9P8T48VR4LK3"
       },
       "audience": {
@@ -149,7 +149,65 @@
         "date": "2026-10-25",
         "publisher": "ATLAS AI Technologies",
         "source": "https://apps.microsoft.com/detail/9P8T48VR4LK3",
-        "checkedAt": "2026-10-30"
+        "checkedAt": "2026-11-04"
+      }
+    },
+    {
+      "id": "translator",
+      "name": "ATLAS Live Translator",
+      "version": "",
+      "category": "tools",
+      "status": "store",
+      "symbol": "⇄",
+      "color": "cyan",
+      "description": {
+        "en": "Hungarian captions for English speech, and editable English replies typed in Hungarian.",
+        "hu": "Magyar felirat angol beszédhez, és javítható angol válasz magyar szövegből.",
+        "de": "Ungarische Untertitel für englische Sprache und bearbeitbare englische Antworten aus ungarischem Text.",
+        "fr": "Sous-titres hongrois pour la parole anglaise et réponses anglaises modifiables depuis le hongrois.",
+        "es": "Subtítulos húngaros para voz inglesa y respuestas inglesas editables desde texto húngaro.",
+        "it": "Sottotitoli ungheresi per parlato inglese e risposte inglesi modificabili da testo ungherese.",
+        "pt": "Legendas húngaras para fala inglesa e respostas inglesas editáveis a partir do húngaro."
+      },
+      "detail": {
+        "en": "Windows 11 application with a Hungarian interface. Core English–Hungarian speech and text processing runs locally. Captions have processing delay and translations may contain errors. Replies can be edited and copied; the app does not automatically send them into a call. Optional external AI requires a separate manual action and approval.",
+        "hu": "Windows 11-alkalmazás magyar felülettel. Az angol–magyar beszéd- és szövegfeldolgozás helyben történik. A felirat késéssel jelenik meg, a fordítás téveszthet. A válasz javítható és másolható; a program nem küldi be automatikusan a hívásba. A külső AI külön kézi műveletet és jóváhagyást igényel.",
+        "de": "Windows-11-App mit ungarischer Oberfläche. Die englisch-ungarische Basisverarbeitung erfolgt lokal. Untertitel können verzögert und Übersetzungen fehlerhaft sein. Antworten sind bearbeitbar und kopierbar; kein automatisches Senden in Anrufe.",
+        "fr": "Application Windows 11 avec interface hongroise. Traitement anglais–hongrois de base en local. Sous-titres retardés et erreurs de traduction possibles. Réponses modifiables et copiables ; aucun envoi automatique dans les appels.",
+        "es": "Aplicación Windows 11 con interfaz húngara. Procesamiento básico inglés–húngaro local. Puede haber retrasos y errores. Respuestas editables y copiables; no se envían automáticamente a las llamadas.",
+        "it": "App Windows 11 con interfaccia ungherese. Elaborazione di base inglese–ungherese locale. Possibili ritardi ed errori. Risposte modificabili e copiabili; nessun invio automatico nelle chiamate.",
+        "pt": "Aplicação Windows 11 com interface húngara. Processamento inglês–húngaro básico local. Pode haver atraso e erros. Respostas editáveis e copiáveis; sem envio automático para chamadas."
+      },
+      "audience": {
+        "en": "Hungarian speakers learning or working with English.",
+        "hu": "Angolul tanuló vagy dolgozó magyar felhasználóknak.",
+        "de": "Für ungarischsprachige Lernende und Berufstätige.",
+        "fr": "Pour les hongrophones apprenant ou utilisant l’anglais.",
+        "es": "Para hablantes de húngaro que estudian o trabajan en inglés.",
+        "it": "Per ungheresi che studiano o lavorano in inglese.",
+        "pt": "Para falantes de húngaro que estudam ou trabalham em inglês."
+      },
+      "next": {
+        "en": "Check compatibility and current price on Microsoft Store.",
+        "hu": "Kompatibilitás és aktuális ár a Microsoft Store-ban.",
+        "de": "Kompatibilität und aktuellen Preis im Store prüfen.",
+        "fr": "Compatibilité et prix actuel sur le Store.",
+        "es": "Compatibilidad y precio actual en la tienda.",
+        "it": "Compatibilità e prezzo attuale nello Store.",
+        "pt": "Compatibilidade e preço atual na loja."
+      },
+      "download": {
+        "url": "https://apps.microsoft.com/detail/9NLKB0GJ4T0G",
+        "provider": "Microsoft Store",
+        "verified": true,
+        "verifiedAt": "2026-11-04",
+        "productId": "9NLKB0GJ4T0G"
+      },
+      "release": {
+        "date": "2026-10-30",
+        "publisher": "ATLAS AI Technologies",
+        "source": "https://apps.microsoft.com/detail/9NLKB0GJ4T0G",
+        "checkedAt": "2026-11-04"
       }
     },
     {
@@ -351,14 +409,14 @@
         "url": "https://apps.microsoft.com/detail/9P4ZSZVLSZVX",
         "provider": "Microsoft Store",
         "verified": true,
-        "verifiedAt": "2026-10-30",
+        "verifiedAt": "2026-11-04",
         "productId": "9P4ZSZVLSZVX"
       },
       "release": {
         "date": "2026-10-30",
         "publisher": "Atlaszai",
         "source": "https://apps.microsoft.com/detail/9P4ZSZVLSZVX",
-        "checkedAt": "2026-10-30"
+        "checkedAt": "2026-11-04"
       },
       "image": {
         "src": "/assets/wishes-store-current.jpg",
