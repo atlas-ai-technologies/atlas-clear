@@ -61,8 +61,10 @@ export function detailMarkup(project, index, lang, t, updated, base = '/') {
     <div class="project-notes"><section><h2>${escapeHtml(t.projectFocus)}</h2><p>${escapeHtml(project.detail[lang])}</p></section>
       <section><h2>${escapeHtml(t.intendedFor)}</h2><p>${escapeHtml(project.audience[lang])}</p></section>
       <section><h2>${escapeHtml(t.nextStep)}</h2><p>${escapeHtml(project.next[lang])}</p></section></div>
+    ${project.id === 'wishes' ? `<p><a class="primary" href="mailto:atlasclear.support@gmail.com?subject=Secret%20Wishes%20Android%20test">${{"hu": "Jelentkezés Android-tesztelőnek (18+)", "en": "Join the Android test (18+)", "de": "Für den Android-Test anmelden (18+)", "fr": "Participer au test Android (18+)", "es": "Participar en la prueba Android (18+)", "it": "Partecipa al test Android (18+)", "pt": "Participar no teste Android (18+)"}[lang]} ↗</a></p>` : ''}
     ${downloadMarkup(project, lang, t, true)}
     ${project.mediaUrl && /^https:\/\/www\.instagram\.com\/p\/[A-Za-z0-9_-]+\/$/.test(project.mediaUrl) ? `<p><a class="text-link" href="${escapeHtml(project.mediaUrl)}" rel="external">${({en:'Watch the overview on Instagram',hu:'Videóbemutató az Instagramon',de:'Video auf Instagram ansehen',fr:'Voir la vidéo sur Instagram',es:'Ver el vídeo en Instagram',it:'Guarda il video su Instagram',pt:'Ver o vídeo no Instagram'})[lang]} ↗</a></p>` : ''}
     <p class="disclosure">${escapeHtml(t.source)}</p><p class="disclosure">${escapeHtml(t.disclosure)}</p>
     <a class="primary" href="${homePath(lang, base)}#projects">${escapeHtml(t.backProjects)} ↗</a>`;
 }
+

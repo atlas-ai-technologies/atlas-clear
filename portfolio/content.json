@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-12",
   "projects": [
     {
       "id": "osint",
       "name": "ATLAS OSINT Professional",
-      "version": "0.5",
+      "version": "",
       "category": "intelligence",
       "status": "development",
       "symbol": "◎",
       "color": "blue",
       "description": {
-        "en": "Research organized around usernames, email, phone numbers and images.",
-        "hu": "Információkutatás felhasználónév, e-mail, telefonszám és kép alapján.",
-        "de": "Recherche nach Nutzernamen, E-Mail, Telefonnummern und Bildern.",
-        "fr": "Recherche par nom d’utilisateur, email, téléphone et image.",
-        "es": "Investigación por usuario, correo, teléfono e imagen.",
-        "it": "Ricerca per nome utente, email, telefono e immagine.",
-        "pt": "Pesquisa por utilizador, email, telefone e imagem."
+        "en": "Explore your own digital footprint using public sources and traceable links.",
+        "hu": "Saját digitális lábnyom kutatása nyilvános forrásokból, követhető hivatkozásokkal.",
+        "de": "Den eigenen digitalen Fußabdruck mit öffentlichen Quellen und nachvollziehbaren Links erkunden.",
+        "fr": "Explorez votre propre empreinte numérique à partir de sources publiques et de liens vérifiables.",
+        "es": "Explora tu propia huella digital con fuentes públicas y enlaces verificables.",
+        "it": "Esplora la tua impronta digitale con fonti pubbliche e collegamenti verificabili.",
+        "pt": "Explore a sua própria pegada digital com fontes públicas e ligações verificáveis."
       },
       "detail": {
-        "hu": "Az ATLAS információkutatási projektje. A 0.5 verzió fejlesztés alatt áll. Ez a bemutató nem jelent nyilvános hozzáférést vagy kész funkciólistát.",
-        "en": "ATLAS’s information research project. Version 0.5 is in development. This overview does not imply public availability or a finalized feature set.",
-        "de": "ATLAS-Projekt zur Informationsrecherche. Version 0.5 wird entwickelt. Diese Übersicht bedeutet keine öffentliche Verfügbarkeit und keine endgültige Funktionsliste.",
-        "fr": "Projet ATLAS de recherche d’informations. La version 0.5 est en développement. Cette présentation ne garantit ni accès public ni liste définitive de fonctions.",
-        "es": "Proyecto ATLAS de investigación de información. La versión 0.5 está en desarrollo. Esta presentación no implica acceso público ni funciones definitivas.",
-        "it": "Progetto ATLAS di ricerca di informazioni. La versione 0.5 è in sviluppo. Questa presentazione non implica accesso pubblico né funzioni definitive.",
-        "pt": "Projeto ATLAS de pesquisa de informação. A versão 0.5 está em desenvolvimento. Esta apresentação não implica acesso público nem funções definitivas."
+        "hu": "Az ATLAS OSINT Microsoft Store-kiadásának előkészítése folyamatban van. Az Android-változat előkészítése elindult. A találatok önmagukban nem bizonyítják egy személy azonosságát.",
+        "en": "The ATLAS OSINT Microsoft Store release is being prepared. Android preparation has started. Matches alone do not prove a person’s identity.",
+        "de": "Die Microsoft-Store-Veröffentlichung von ATLAS OSINT wird vorbereitet. Die Android-Vorbereitung hat begonnen. Treffer allein beweisen keine Identität.",
+        "fr": "La sortie Microsoft Store d’ATLAS OSINT est en préparation. La préparation Android a commencé. Les correspondances ne prouvent pas à elles seules une identité.",
+        "es": "La publicación de ATLAS OSINT en Microsoft Store está en preparación. Ha comenzado la preparación para Android. Las coincidencias por sí solas no prueban una identidad.",
+        "it": "La pubblicazione di ATLAS OSINT su Microsoft Store è in preparazione. È iniziata la preparazione per Android. Le corrispondenze da sole non provano un’identità.",
+        "pt": "A publicação do ATLAS OSINT na Microsoft Store está em preparação. A preparação para Android começou. As correspondências, por si só, não provam uma identidade."
       },
       "audience": {
         "en": "People organizing open-source research with traceable sources.",
@@ -37,13 +37,13 @@
         "pt": "Para quem organiza pesquisas em fontes abertas rastreáveis."
       },
       "next": {
-        "en": "Confirm the current release scope before adding a public download. The screenshot is an earlier development preview.",
-        "hu": "Nyilvános letöltés előtt az aktuális kiadás tartalmának megerősítése. A kép korábbi fejlesztési előnézet.",
-        "de": "Vor einem öffentlichen Download den aktuellen Umfang bestätigen. Das Bild ist eine frühere Entwicklungsvorschau.",
-        "fr": "Confirmer le périmètre actuel avant tout téléchargement public. La capture est un aperçu de développement antérieur.",
-        "es": "Confirmar el alcance actual antes de añadir descarga pública. La captura es una vista de desarrollo anterior.",
-        "it": "Confermare l’ambito attuale prima del download pubblico. L’immagine è un’anteprima di sviluppo precedente.",
-        "pt": "Confirmar o âmbito atual antes de adicionar transferência pública. A captura é uma pré-visualização de desenvolvimento anterior."
+        "en": "Release checks and usability testing; a public download will be added after release.",
+        "hu": "Kiadási ellenőrzések és használati tesztek; a nyilvános letöltést a megjelenés után tesszük elérhetővé.",
+        "de": "Freigabeprüfungen und Nutzungstests; ein öffentlicher Download folgt nach der Veröffentlichung.",
+        "fr": "Vérifications et tests d’utilisation ; le téléchargement public sera ajouté après la sortie.",
+        "es": "Comprobaciones de lanzamiento y pruebas de uso; la descarga pública se añadirá tras la publicación.",
+        "it": "Verifiche di rilascio e prove d’uso; il download pubblico sarà aggiunto dopo la pubblicazione.",
+        "pt": "Verificações de lançamento e testes de utilização; a transferência pública será adicionada após a publicação."
       },
       "image": {
         "src": "/assets/osint-development-preview.png",
@@ -405,13 +405,13 @@
         "pt": "Jogo de cartas para casais disponível, com 15 desafios românticos gratuitos."
       },
       "detail": {
-        "hu": "A Secret Wishes Game 2026. október 30-án megjelent a Microsoft Store-ban. Kétszemélyes játék egy közös képernyőn, 15 ingyenes Romantikus · Lágy lappal. Fiók nem szükséges; bármelyik játékos passzolhat vagy megállhat. Az opcionális csomagok külön vásárlással, az áruházban jelzett elérhetőség szerint érhetők el.",
-        "en": "Secret Wishes Game was released on the Microsoft Store on 30 October 2026. Play together on one screen with 15 free Romantic · Gentle cards. No account is required, and either player can pass or stop. Optional packs require a separate purchase and are available as indicated by the Store.",
-        "de": "Secret Wishes Game erschien am 30. Oktober 2026 im Microsoft Store. Zu zweit an einem Bildschirm spielen, mit 15 kostenlosen romantischen Karten. Kein Konto nötig; beide können passen oder aufhören. Verfügbarkeit und Bedingungen optionaler Pakete stehen im Store.",
-        "fr": "Secret Wishes Game est sorti sur le Microsoft Store le 30 octobre 2026. Deux personnes sur un écran, avec 15 cartes romantiques gratuites. Aucun compte requis ; chacun peut passer ou arrêter. Consulter le Store pour la disponibilité et les conditions des packs optionnels.",
-        "es": "Secret Wishes Game se publicó en Microsoft Store el 30 de octubre de 2026. Dos personas en una pantalla, con 15 cartas románticas gratuitas. Sin cuenta; cualquiera puede pasar o parar. Consultar la tienda para la disponibilidad y condiciones de los paquetes opcionales.",
-        "it": "Secret Wishes Game è uscito su Microsoft Store il 30 ottobre 2026. Due persone su uno schermo, con 15 carte romantiche gratuite. Nessun account richiesto; entrambi possono passare o fermarsi. Consultare lo Store per disponibilità e condizioni dei pacchetti opzionali.",
-        "pt": "Secret Wishes Game foi lançado na Microsoft Store em 30 de outubro de 2026. Duas pessoas num ecrã, com 15 cartas românticas gratuitas. Sem conta; qualquer jogador pode passar ou parar. Consultar a loja para disponibilidade e condições dos pacotes opcionais."
+        "hu": "A Secret Wishes Game 2026. október 30-án megjelent a Microsoft Store-ban. Kétszemélyes játék egy közös képernyőn, 15 ingyenes Romantikus · Lágy lappal. Fiók nem szükséges; bármelyik játékos passzolhat vagy megállhat. Az opcionális csomagok külön vásárlással, az áruházban jelzett elérhetőség szerint érhetők el. Android: az 1.3.1-es változat aktív Google Play zárt tesztben van; még nincs nyilvános Play-kiadás. 18 éven felüli önkéntes tesztelőket keresünk, az ingyenes pakli kipróbálásához nem kell vásárolni.",
+        "en": "Secret Wishes Game was released on the Microsoft Store on 30 October 2026. Play together on one screen with 15 free Romantic · Gentle cards. No account is required, and either player can pass or stop. Optional packs require a separate purchase and are available as indicated by the Store. Android: version 1.3.1 is in an active Google Play closed test; it is not yet publicly released on Play. We welcome volunteer testers aged 18+. No purchase is needed to try the free deck.",
+        "de": "Secret Wishes Game erschien am 30. Oktober 2026 im Microsoft Store. Zu zweit an einem Bildschirm spielen, mit 15 kostenlosen romantischen Karten. Kein Konto nötig; beide können passen oder aufhören. Verfügbarkeit und Bedingungen optionaler Pakete stehen im Store. Android: Version 1.3.1 ist im aktiven geschlossenen Google-Play-Test und noch nicht öffentlich auf Play verfügbar. Freiwillige Tester ab 18 Jahren sind willkommen. Für das kostenlose Kartenset ist kein Kauf nötig.",
+        "fr": "Secret Wishes Game est sorti sur le Microsoft Store le 30 octobre 2026. Deux personnes sur un écran, avec 15 cartes romantiques gratuites. Aucun compte requis ; chacun peut passer ou arrêter. Consulter le Store pour la disponibilité et les conditions des packs optionnels. Android : la version 1.3.1 est en test fermé actif sur Google Play, sans sortie publique pour le moment. Nous recherchons des volontaires de 18 ans et plus. Aucun achat n’est nécessaire pour essayer le jeu de cartes gratuit.",
+        "es": "Secret Wishes Game se publicó en Microsoft Store el 30 de octubre de 2026. Dos personas en una pantalla, con 15 cartas románticas gratuitas. Sin cuenta; cualquiera puede pasar o parar. Consultar la tienda para la disponibilidad y condiciones de los paquetes opcionales. Android: la versión 1.3.1 está en una prueba cerrada activa de Google Play; aún no hay lanzamiento público en Play. Buscamos voluntarios mayores de 18 años. Probar la baraja gratuita no requiere comprar nada.",
+        "it": "Secret Wishes Game è uscito su Microsoft Store il 30 ottobre 2026. Due persone su uno schermo, con 15 carte romantiche gratuite. Nessun account richiesto; entrambi possono passare o fermarsi. Consultare lo Store per disponibilità e condizioni dei pacchetti opzionali. Android: la versione 1.3.1 è in un test chiuso attivo su Google Play; non è ancora disponibile pubblicamente su Play. Cerchiamo volontari maggiorenni. Non occorre acquistare nulla per provare il mazzo gratuito.",
+        "pt": "Secret Wishes Game foi lançado na Microsoft Store em 30 de outubro de 2026. Duas pessoas num ecrã, com 15 cartas românticas gratuitas. Sem conta; qualquer jogador pode passar ou parar. Consultar a loja para disponibilidade e condições dos pacotes opcionais. Android: a versão 1.3.1 está num teste fechado ativo do Google Play; ainda não existe lançamento público no Play. Procuramos voluntários maiores de 18 anos. Não é necessária qualquer compra para experimentar o baralho gratuito."
       },
       "audience": {
         "en": "Couples interested in shared, playful conversation and activities.",
@@ -472,3 +472,4 @@
     }
   ]
 }
+
